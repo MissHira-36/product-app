@@ -1,0 +1,289 @@
+body{
+  font-family: "Cormorant Garamond", Sans-serif;
+}
+/* ...................................header css................................... */
+header {
+  padding: 15px 20px;
+  /* background-color: #f8f9fa; */
+  /* border-bottom: 1px solid #e0e0e0; */
+align-items: center;
+justify-content: space-between;
+}
+.nav-logo img {
+  width: 150px;
+}
+.navbar {
+  flex-grow: 1;
+  padding-left: 215px;
+}
+.navbar-nav .nav-item a{
+  margin-right: 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.image{
+  height: 150px;
+  align-items: start;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #d14031;
+}
+.btn:hover{
+  background-color: #54595f;
+  color: white;
+}
+.form-control , .btn {
+  border-radius: 10px;
+}
+header .form-control:focus{
+  border-color: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn {
+  background-color: #d14031;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+}
+.product .btn{
+  margin-top: 15px;
+  /* width: 60px; */
+  padding:9px 30px;
+}
+span{
+  color:  #d14031;
+}
+.card{
+  height: 100%;
+  border: none;
+  font-size: 18px;
+  line-height: 10px;
+}
+.card:hover{
+  transition: all 0.3s linear;
+}
+.card h4{
+  font-size: 18px;
+  font-weight: 600;
+
+}
+.card h4:hover{
+  color: #d14031;
+  
+}
+.card p{
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 15px;
+}
+.card-style {
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.card-style img {
+  /* height: 300px; */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.thanks {
+  position: relative;
+  /* text-align: center; */
+}
+
+.thanks img {
+  width: 100%;
+  height: 500px;
+}
+.thanks h2{
+  color: #3d3e41;
+}
+.position {
+  position: absolute;
+  top: 50%; 
+  left: 25%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+  color: #d14031;
+  text-shadow: 2px 2px 4px #141414;
+}
+.position h1{
+font-size: 60px;
+font-weight: 900;
+}
+
+.footer{
+  background-color: #141414;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  color: white;
+}
+.footer h4{
+  font-weight: 600;
+  font-size: 30px;
+}
+.text{
+  padding-left: 30px;
+}
+.bookshop ul li{
+  list-style-type: none;
+  padding-top: 8px;
+}
+
+.sty-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-row div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-row div:last-child {
+  margin-right: 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+
+
+/* Basic styling for the container to center the form */
+.styling {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  height: 100vh;            /* Full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Styling the form */
+form {
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;  /* Make sure the form doesn't get too wide */
+}
+
+/* Each form row (input, textarea) styling */
+.form-row {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Styling for the input field */
+input[type="text"] {
+  width: 100%; /* Full width of the container */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Styling for the textarea */
+textarea {
+  width: 100%; /* Full width of the container */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 150px; /* A larger height for the textarea */
+  resize: none; /* Optional: Prevent resizing */
+}
+
+
+/* Basic container styling */
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+/* Center the title at the top */
+.text-center h1 {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Post card styling */
+.card {
+  display: flex;              /* Enable Flexbox */
+  flex-direction: column;     /* Stack card content vertically */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  overflow: hidden;
+  height: 100%;               /* Ensure the card stretches to 100% of available height */
+}
+
+
+.card:hover {
+  transform: translateY(-10px); /* Lift card on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Card body padding and text styling */
+.card-body {
+  padding: 20px;
+}
+
+.card-body h2 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
